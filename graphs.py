@@ -37,8 +37,10 @@ def bfs(graph, start):
             visited.add(vertex)
             print(vertex, end=" ")
             queue.extend([n for n in graph[vertex] if n not in visited])
-
     print()
-print("BFS Traversal starting from A: ", bfs(graph, 'A'))
+
+print("BFS Traversal starting from A:")
+
+bfs(graph, 'A')
 
    
