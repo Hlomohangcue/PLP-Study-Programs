@@ -33,3 +33,8 @@ coins = [25, 10, 5, 1]
 amount = 68 # for example, 68 cents
 change = greedy_coin_change(amount, coins)
 print("Coins used for 68 cents (greedy): ", change)
+
+
+# Explanation: At each step, the algorithm selects the largest coin
+#  that doesn’t exceed the remaining amount, demonstrating 
+# a straightforward greedy approach to an optimization problem.
